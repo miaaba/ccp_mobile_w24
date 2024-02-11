@@ -27,6 +27,11 @@ nav ul li:hover{
     background-color: #DCCCFf;
     color: #000000;
 }
+@media screen and (max-width: 600px) {
+    nav ul{
+        grid-template-columns: 1fr;
+    }
+}
 .home-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
