@@ -50,6 +50,9 @@ nav ul li:hover{
     grid-column: 1 /-1;
     grid-row: 2;
 }
+.home-info a{
+    color: #000000;
+}
 .pet_a{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
